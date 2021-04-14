@@ -4,7 +4,7 @@ import {
 
   // Types
   Ref,
-} from 'vue'
+} from 'vue-demi'
 
 // TODO: Figure out a nice way to attachTo document.body in the tests without automagically inserting a div with data-v-app
 let CHILDREN_SELECTOR = process.env.NODE_ENV === 'test' ? '[data-v-app=""] > *' : 'body > *'

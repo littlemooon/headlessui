@@ -1,4 +1,4 @@
-import { defineComponent, h, nextTick, ref } from 'vue'
+import { defineComponent, h, nextTick, ref } from 'vue-demi'
 import prettier from 'prettier'
 
 import { render } from '../../test-utils/vue-testing-library'

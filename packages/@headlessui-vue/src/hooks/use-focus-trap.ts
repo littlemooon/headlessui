@@ -6,7 +6,7 @@ import {
 
   // Types
   Ref,
-} from 'vue'
+} from 'vue-demi'
 
 import { Keys } from '../keyboard'
 import { focusElement, focusIn, Focus, FocusResult } from '../utils/focus-management'

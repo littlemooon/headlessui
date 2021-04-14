@@ -12,7 +12,7 @@ import {
   // Types
   InjectionKey,
   PropType,
-} from 'vue'
+} from 'vue-demi'
 import { render } from '../../utils/render'
 import { useElemenStack, useStackProvider } from '../../internal/stack-context'
 import { usePortalRoot } from '../../internal/portal-force-root'

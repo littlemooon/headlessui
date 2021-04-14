@@ -103,7 +103,7 @@
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent } from 'vue-demi'
 import {
   Popover,
   PopoverOverlay,

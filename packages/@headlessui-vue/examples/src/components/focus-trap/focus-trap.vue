@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { defineComponent, h, ref, onMounted, watchEffect, watch } from 'vue'
+import { defineComponent, h, ref, onMounted, watchEffect, watch } from 'vue-demi'
 import { FocusTrap } from '@headlessui/vue'
 
 function classNames(...classes) {

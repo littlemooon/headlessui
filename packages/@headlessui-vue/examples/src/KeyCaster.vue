@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue'
+import { defineComponent, ref } from 'vue-demi'
 
 let isMac = navigator.userAgent.indexOf('Mac OS X') !== -1
 

@@ -1,7 +1,7 @@
 import { render } from './vue-testing-library'
 
 import { type, shift, Keys } from './interactions'
-import { defineComponent, h } from 'vue'
+import { defineComponent, h } from 'vue-demi'
 
 type Events = 'onKeydown' | 'onKeyup' | 'onKeypress' | 'onClick' | 'onBlur' | 'onFocus'
 let events: Events[] = ['onKeydown', 'onKeyup', 'onKeypress', 'onClick', 'onBlur', 'onFocus']

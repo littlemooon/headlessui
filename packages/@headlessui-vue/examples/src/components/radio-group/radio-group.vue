@@ -69,7 +69,7 @@
 </template>
 
 <script>
-import { ref } from 'vue'
+import { ref } from 'vue-demi'
 import { RadioGroup, RadioGroupOption } from '@headlessui/vue'
 
 function classNames(...classes) {

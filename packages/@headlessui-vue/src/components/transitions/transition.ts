@@ -13,7 +13,7 @@ import {
   // Types
   InjectionKey,
   Ref,
-} from 'vue'
+} from 'vue-demi'
 
 import { useId } from '../../hooks/use-id'
 import { match } from '../../utils/match'

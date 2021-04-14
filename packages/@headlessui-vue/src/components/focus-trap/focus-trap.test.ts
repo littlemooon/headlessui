@@ -1,4 +1,4 @@
-import { defineComponent, ref, nextTick, onMounted } from 'vue'
+import { defineComponent, ref, nextTick, onMounted } from 'vue-demi'
 
 import { FocusTrap } from './focus-trap'
 import { assertActiveElement, getByText } from '../../test-utils/accessibility-assertions'

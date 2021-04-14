@@ -1,4 +1,4 @@
-import { Ref } from 'vue'
+import { Ref } from 'vue-demi'
 
 export function dom<T extends HTMLElement>(ref?: Ref<T | null>): T | null {
   if (ref == null) return null

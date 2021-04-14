@@ -13,7 +13,7 @@ import {
   watchEffect,
   toRaw,
   watch,
-} from 'vue'
+} from 'vue-demi'
 
 import { Features, render } from '../../utils/render'
 import { useId } from '../../hooks/use-id'

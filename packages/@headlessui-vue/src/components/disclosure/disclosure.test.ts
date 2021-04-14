@@ -1,4 +1,4 @@
-import { defineComponent, nextTick } from 'vue'
+import { defineComponent, nextTick } from 'vue-demi'
 import { render } from '../../test-utils/vue-testing-library'
 import { Disclosure, DisclosureButton, DisclosurePanel } from './disclosure'
 import { suppressConsoleLogs } from '../../test-utils/suppress-console-logs'

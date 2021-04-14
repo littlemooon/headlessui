@@ -1,4 +1,4 @@
-import { defineComponent, nextTick, ref, watch } from 'vue'
+import { defineComponent, nextTick, ref, watch } from 'vue-demi'
 import { render } from '../../test-utils/vue-testing-library'
 import { Listbox, ListboxLabel, ListboxButton, ListboxOptions, ListboxOption } from './listbox'
 import { suppressConsoleLogs } from '../../test-utils/suppress-console-logs'

@@ -1,4 +1,4 @@
-import { onUnmounted } from 'vue'
+import { onUnmounted } from 'vue-demi'
 
 export function useWindowEvent<TType extends keyof WindowEventMap>(
   type: TType,

@@ -59,7 +59,7 @@
 </template>
 
 <script>
-import { defineComponent, h, ref, onMounted, watchEffect, watch } from 'vue'
+import { defineComponent, h, ref, onMounted, watchEffect, watch } from 'vue-demi'
 import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
 import { usePopper } from '../../playground-utils/hooks/use-popper'
 

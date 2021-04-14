@@ -31,7 +31,13 @@
     "lint": "../../scripts/lint.sh"
   },
   "peerDependencies": {
-    "vue": "^3.0.0"
+    "@vue/composition-api": "^1.0.0-beta.1",
+    "vue": "^2.0.0 || >=3.0.0-rc.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@popperjs/core": "^2.5.3",
@@ -42,5 +48,8 @@
     "vite": "^1.0.0-rc.4",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-beta.13"
+  },
+  "dependencies": {
+    "vue-demi": "^0.7.4"
   }
 }

@@ -77,7 +77,7 @@
 </template>
 
 <script>
-import { defineComponent, h, ref, onMounted, watchEffect, watch } from 'vue'
+import { defineComponent, h, ref, onMounted, watchEffect, watch } from 'vue-demi'
 import {
   Listbox,
   ListboxLabel,

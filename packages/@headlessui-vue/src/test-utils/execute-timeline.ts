@@ -1,4 +1,4 @@
-import { defineComponent } from 'vue'
+import { defineComponent } from 'vue-demi'
 import snapshotDiff from 'snapshot-diff'
 import { render } from './vue-testing-library'
 

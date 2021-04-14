@@ -7,7 +7,7 @@ import {
   // Types
   InjectionKey,
   Ref,
-} from 'vue'
+} from 'vue-demi'
 
 import { render } from '../../utils/render'
 import { useId } from '../../hooks/use-id'

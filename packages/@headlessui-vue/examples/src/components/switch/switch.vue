@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { defineComponent, h, ref, onMounted, watchEffect, watch } from 'vue'
+import { defineComponent, h, ref, onMounted, watchEffect, watch } from 'vue-demi'
 import { SwitchGroup, Switch, SwitchLabel } from '@headlessui/vue'
 
 function classNames(...classes) {

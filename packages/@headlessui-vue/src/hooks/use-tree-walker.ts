@@ -1,4 +1,4 @@
-import { watchEffect, ComputedRef } from 'vue'
+import { watchEffect, ComputedRef } from 'vue-demi'
 
 type AcceptNode = (
   node: HTMLElement

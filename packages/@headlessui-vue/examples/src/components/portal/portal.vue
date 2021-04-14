@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import { defineComponent, h, ref, onMounted, watchEffect, watch } from 'vue'
+import { defineComponent, h, ref, onMounted, watchEffect, watch } from 'vue-demi'
 import { Portal, PortalGroup } from '@headlessui/vue'
 
 function classNames(...classes) {

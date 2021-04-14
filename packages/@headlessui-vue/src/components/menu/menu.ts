@@ -10,7 +10,7 @@ import {
   InjectionKey,
   Ref,
   watchEffect,
-} from 'vue'
+} from 'vue-demi'
 import { Features, render } from '../../utils/render'
 import { useId } from '../../hooks/use-id'
 import { Keys } from '../../keyboard'

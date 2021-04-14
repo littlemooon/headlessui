@@ -6,7 +6,7 @@ import {
   // Types
   InjectionKey,
   Ref,
-} from 'vue'
+} from 'vue-demi'
 
 type OnUpdate = (message: StackMessage, element: HTMLElement) => void
 

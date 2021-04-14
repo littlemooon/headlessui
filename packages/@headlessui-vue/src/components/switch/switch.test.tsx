@@ -1,4 +1,4 @@
-import { defineComponent, ref, watch } from 'vue'
+import { defineComponent, ref, watch } from 'vue-demi'
 import { render } from '../../test-utils/vue-testing-library'
 
 import { Switch, SwitchLabel, SwitchDescription, SwitchGroup } from './switch'

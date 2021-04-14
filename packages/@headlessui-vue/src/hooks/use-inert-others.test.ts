@@ -1,4 +1,4 @@
-import { defineComponent, ref, nextTick } from 'vue'
+import { defineComponent, ref, nextTick } from 'vue-demi'
 
 import { render } from '../test-utils/vue-testing-library'
 import { useInertOthers } from './use-inert-others'

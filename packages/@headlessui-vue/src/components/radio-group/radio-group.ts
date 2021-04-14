@@ -12,7 +12,7 @@ import {
   InjectionKey,
   Ref,
   UnwrapRef,
-} from 'vue'
+} from 'vue-demi'
 import { dom } from '../../utils/dom'
 import { Keys } from '../../keyboard'
 import { focusIn, Focus, FocusResult } from '../../utils/focus-management'

@@ -9,7 +9,7 @@ import {
   // Types
   InjectionKey,
   Ref,
-} from 'vue'
+} from 'vue-demi'
 
 import { match } from '../../utils/match'
 import { render, Features } from '../../utils/render'

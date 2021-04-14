@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import { defineComponent, h } from 'vue'
+import { defineComponent, h } from 'vue-demi'
 import { RouterLink } from 'vue-router'
 import routes from '../routes.json'
 

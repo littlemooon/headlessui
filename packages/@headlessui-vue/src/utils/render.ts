@@ -1,4 +1,4 @@
-import { h, cloneVNode, Slots } from 'vue'
+import { h, cloneVNode, Slots } from 'vue-demi'
 import { match } from './match'
 
 export enum Features {

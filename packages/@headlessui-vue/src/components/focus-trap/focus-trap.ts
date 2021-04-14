@@ -7,7 +7,7 @@ import {
 
   // Types
   PropType,
-} from 'vue'
+} from 'vue-demi'
 import { render } from '../../utils/render'
 import { useFocusTrap } from '../../hooks/use-focus-trap'
 

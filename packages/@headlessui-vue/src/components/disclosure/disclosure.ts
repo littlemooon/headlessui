@@ -1,5 +1,5 @@
 // WAI-ARIA: https://www.w3.org/TR/wai-aria-practices-1.2/#disclosure
-import { defineComponent, ref, provide, inject, InjectionKey, Ref, computed } from 'vue'
+import { defineComponent, ref, provide, inject, InjectionKey, Ref, computed } from 'vue-demi'
 
 import { Keys } from '../../keyboard'
 import { match } from '../../utils/match'

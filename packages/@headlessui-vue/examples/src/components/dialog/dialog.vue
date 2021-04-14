@@ -166,7 +166,7 @@
 </template>
 
 <script>
-import { ref, defineComponent } from 'vue'
+import { ref, defineComponent } from 'vue-demi'
 import {
   Dialog,
   DialogTitle,

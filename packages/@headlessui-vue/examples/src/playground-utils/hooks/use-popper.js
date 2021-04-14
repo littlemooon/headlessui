@@ -1,4 +1,4 @@
-import { ref, onMounted, watchEffect } from 'vue'
+import { ref, onMounted, watchEffect } from 'vue-demi'
 import { createPopper } from '@popperjs/core'
 
 export function usePopper(options) {

@@ -75,7 +75,7 @@
 </template>
 
 <script>
-import { computed, watchEffect } from 'vue'
+import { computed, watchEffect } from 'vue-demi'
 import { useRoute } from 'vue-router'
 import KeyCaster from './KeyCaster.vue'
 import './.generated/preload.js'

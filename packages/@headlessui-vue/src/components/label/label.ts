@@ -11,7 +11,7 @@ import {
   // Types
   ComputedRef,
   InjectionKey,
-} from 'vue'
+} from 'vue-demi'
 
 import { useId } from '../../hooks/use-id'
 import { render } from '../../utils/render'
